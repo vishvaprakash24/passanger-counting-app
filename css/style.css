@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "poppins", "sans-serif";
+}
+button {
+  border: 0;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  cursor: pointer;
+  outline: 0;
+}
+#count-el{
+  font-size: 5em;
+  font-weight: 500;
+  
+}
+#increment-btn {
+  background-color: darkred;
+}
+#save-btn {
+  background-color: darkgreen;
+}
+#save-el {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+h2 {
+  font-weight: 500;
+  font-size: 60px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
